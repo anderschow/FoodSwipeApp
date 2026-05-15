@@ -148,7 +148,6 @@ export default function SwipeScreen({navigation}) {
             const lat = loc.coords.latitude;
             const lng = loc.coords.longitude;
             const radius = 1500;
-            const apiKey = 'AIzaSyDSJivtCrQ6RDPVOg7ZC8WPFz9NVFhLeXQ';
 
 
             const res = await fetch(
